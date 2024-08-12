@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styling/contactUs.css">
+</head>
+<body>
+    <p>Need Help!</p>
+    <h2>Have any Query?</h2>
+    <form type="submit" action="../php/query.php" method="post">
+        <div id="firstRow">
+            <div>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" required placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="Email">Email:</label><br>
+                <input type="email" name="email" required placeholder="Enter your Email">
+            </div>
+            <div>
+                <label for="contact">Contact Number:</label><br>
+                <input type="contact number" name="contactNumber" required placeholder="Enter your Contat Number">
+            </div>
+        </div>
+        <div>
+            <label for="Your Query"><br>Your Query:</label><br>
+            <textarea  id="query" name="Query" placeholder="Enter Message..."></textarea><br>
+        </div>
+        <input type="submit" value="Send Message" style="float: right;">
+    </form>
+
+</body>
+</html>
